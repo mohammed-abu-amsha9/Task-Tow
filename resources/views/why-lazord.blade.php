@@ -10,7 +10,7 @@
                     <p>نحن نقود ثورة طب الأسنان الرقمي بتقديم تجربة مختبرية لا مثيل لها — مبنية على التكنولوجيا والثقة
                         والتواصل
                         الحقيقي.</p>
-                    <a href="{{route('pricing')}}" class="btn-primary">ابدأ الآن</a>
+                    <a href="{{route('pricing.index')}}" class="btn-primary">ابدأ الآن</a>
                 </div>
             </div>
         </section>

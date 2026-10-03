@@ -42,14 +42,14 @@
                     <button type="submit" class="btn-submit login-submit">تسجيل الدخول</button>
                 </form>
 
-                <p class="login-register">ليس لديك حساب؟ <a href="{{ route('pricing') }}" class="link-green">سجّل الآن
+                <p class="login-register">ليس لديك حساب؟ <a href="{{ route('pricing.index') }}" class="link-green">سجّل الآن
                         مجاناً</a>
                 </p>
             </div>
         </section>
     </main>
 
-    {{-- <script src="{{ asset('assets/script.js') }}"></script> --}}
+    <script src="{{ asset('assets/script.js') }}"></script>
 </body>
 
 </html>

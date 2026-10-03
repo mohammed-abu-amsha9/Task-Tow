@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const email = contactForm.querySelector("#email").value.trim();
 
             if (!firstName || !email) {
-                e.preventDefault(); 
+                e.preventDefault();
                 showToast(
                     "يرجى ملء الاسم الأول والبريد الإلكتروني على الأقل.",
                     "error",
